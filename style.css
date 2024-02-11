@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+   
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{   
+  background-color:rgba(242, 186, 229, 0.636);
+  
+}
+
+body ul {
+  background-color: rgb(225, 209, 224);
+  list-style-type: none;
+  display:flex;
+  height: 30px;
+}
+ 
+
+body ul li{
+    font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  font-weight: bolder;
+  align-items: center;
+  width:100%;
+  justify-content: center;
+  background-color:antiquewhite;
+}
+
+body ul li:hover{
+    background-color: rgb(207, 156, 224);
+    cursor:pointer;
+}
+  
+nav a{
+  text-decoration: none;
+}
+
+
+
+h1{
+  display: flex;
+    border:0;
+  font-size:200px;
+  text-align:center;
+  color: rgb(237, 227, 219);
+  font-weight:bolder;
+  font-family: 'Dancing Script', cursive;
+  justify-content: center ;
+  text-shadow: 20px;
+}
+
+
+h4{
+    font-family: 'Dancing Script', cursive;
+  color:rgb(236, 229, 229);
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+
+.name{
+    padding-top: 400px;
+  background-image: url("https://media.istockphoto.com/photos/blurred-background-of-restaurant-interior-picture-id624546890?k=6&m=624546890&s=170667a&w=0&h=eVqSYXPWQeLmNajiOvK8ItTLYH5aSmG0H_bjrefP-hI=");
+  background-size: cover;
+  height: 700px;
+}
+
+
+
+.login{
+    color:bisque;
+    background-color: black;
+    display:flex;
+    justify-content: end;
+    padding:10px;
+    cursor:pointer;
+}
+
+ .login a{
+    text-decoration: none;
+ }
+
+
+ #login{
+    color:bisque;
+ }
+
+.login{
+    font-size: 30px;
+   
+}
+.login a:hover{
+    background-color: rgb(100, 92, 92);
+}
